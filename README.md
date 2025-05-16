@@ -1,0 +1,13 @@
+## a. How much data your publisher program will send to the message broker in one run?
+
+In one run, the publisher program sends five messages to the message broker. Each message contains a user ID and a user name, both as strings. The total data sent depends on the size of these strings and the serialization overhead, but conceptually, it is five serialized UserCreatedEventMessage structs.
+
+## b. The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
+
+This URL specifies the connection details for the AMQP message broker:
+
+- `amqp` is the protocol (Advanced Message Queuing Protocol).
+- The first `guest` is the username.
+- The second `guest` is the password.
+- `localhost` is the server address (the local machine).
+- `5672` is the port number where the broker listens for connections.
