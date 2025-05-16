@@ -15,3 +15,7 @@ This URL specifies the connection details for the AMQP message broker:
 ## Screenshot of Running RabbitMQ
 
 ![RabbitMQ running](./screenshot-rabbitmq.png)
+
+## Screenshot of Sending and Processing Events
+
+![Sending and processing events](./screenshot-event.png)
