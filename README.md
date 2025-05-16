@@ -11,3 +11,7 @@ This URL specifies the connection details for the AMQP message broker:
 - The second `guest` is the password.
 - `localhost` is the server address (the local machine).
 - `5672` is the port number where the broker listens for connections.
+
+## Screenshot of Running RabbitMQ
+
+![RabbitMQ running](./screenshot-rabbitmq.png)
