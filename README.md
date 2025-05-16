@@ -20,7 +20,7 @@ This URL specifies the connection details for the AMQP message broker:
 
 ![Sending and processing events](./screenshot-event.png)
 
-## Screenshot of Chart Monitoring
+## Chart Monitoring
 
 ![Chart monitoring](./screenshot-chart.png)
 
